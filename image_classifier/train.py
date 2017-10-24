@@ -13,7 +13,7 @@ from tflearn.data_preprocessing import ImagePreprocessing
 from tflearn.data_augmentation import ImageAugmentation
 from tflearn.datasets import cifar10
 
-import initialise_model
+import convnet
 
 def train():
 	# Data loading and preprocessing

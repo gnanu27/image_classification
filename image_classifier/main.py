@@ -3,7 +3,7 @@ import train_model as training
 import tflearn
 from tflearn.layers.core import input_data
 
-import initialise_model
+import convnet
 
 def load_network():
 	model = tflearn.DNN(initialise_model.create_network('adam'), tensorboard_verbose=0)
